@@ -1,0 +1,28 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon .fa-discord,
+.icon-row__icon .fa-discord + span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon span {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.fa-discord {
+  transition: color 0.5s ease-in-out;
+}

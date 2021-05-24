@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Talk Clone</title>
+  </head>
+  <body class="body-index">
+    <div class="status-bar status-bar-index-color">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>5:53</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <img
+        class="welcome-header__title_img"
+        src="https://toppng.com/public/uploads/thumbnail/discord-logo-01-discord-logo-11562849833kmfjp60wxd.png"
+      />
+      <p class="welcome-header__text">Discord</p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        type="email"
+        required
+        placeholder="Email or phone number"
+      />
+      <input name="password" type="password" required placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <input type="submit" value="Sign in" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/cefd93135f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
